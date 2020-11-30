@@ -1,0 +1,76 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.contact-wraper-bg{
+	background-image: url(img/top-10-chain-restaurants-usa-2019-1024x600.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	
+}
+
+
+/*========================   Nav manu ==================*/
+
+.contact-wraper {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  padding: 80px;
+}
+.contact-wraper-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 77%;
+  width: 100%;
+  z-index: 1;
+}
+.contact-wraper .row {
+  position: relative;
+  z-index: 2;
+}
+.contact-wraper-bg::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #0176c0;
+  z-index: -1;
+  opacity: .8;
+}
+.box-form {
+  background: #fff;
+  margin-left: 50px;
+  color: #333;
+  padding: 50px;
+  box-shadow: 0 0 4px #ccc;
+}
+.box-form input,.box-form textarea {
+  color: black;
+  padding: 13px;
+  width: 100%;
+  border: 1px solid#ddd;
+}
+.box-form textarea {
+  max-height: 120px;
+}
+.box-form input[type=submit] {
+  background: green;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+
+
+
+
